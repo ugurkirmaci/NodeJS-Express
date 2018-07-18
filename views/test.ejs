@@ -1,0 +1,11 @@
+<% include partials/header.ejs %>
+
+<p>Parametre : <%= testParametre.toUpperCase() %> </p>
+<% if(testParametre.toLowerCase() === "mersin ") { %>
+	<p> Mersin guzel secim</p>
+<% } else { %>
+	<p>Tamam diger sehirlerde guzel.</p>
+
+<% } %>	
+
+<% include partials/footer.ejs %>
